@@ -1,15 +1,11 @@
-import NavHeader from '../../components/navheader/navheader'
+import NavLinks from '../../components/navheader/NavLinks';
 
-NavHeader
+const Header = () => {
+    return (
+        <header className="bg-stone-300 h-32 flex justify-end p-4 justify-items-center [&>li]:m-10 ">
+            <NavLinks />
+        </header>
+    );
+};
 
-const Header = (props) => {
-  return (
-    <header>
-      <nav>
-        <NavHeader />
-      </nav>
-    </header>
-  )
-}
-
-export default Header
+export default Header;
