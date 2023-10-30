@@ -1,8 +1,8 @@
 export const FeedDataBase = () => {
     return (
-        <div className="active m-8 flex justify-evenly  bg-stone-200 border-2 rounded-lg p-10 ">
-            <form>
-                <div className="flex items-center justify-around flex-col flex-wrap">
+        <div className="active m-8 flex justify-evenly  bg-stone-200  rounded-lg p-10 ">
+            <form className="">
+                <div className=" form-items-container  flex items-center justify-around flex-col flex-wrap">
                     <h2 className=" text-lg m-4">
                         Inserir ou Remover servidores para pesquisa no DOM
                     </h2>

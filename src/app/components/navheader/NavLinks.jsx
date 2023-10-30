@@ -30,7 +30,7 @@ const NavLinks = ({ navLink }) => {
     return (
         <nav>
             <div className="links-container ">
-                <ul className="">
+                <ul className="flex [&>li]:m-5 ">
                     {navLinks.map((link) => {
                         const isActive = pathname.endsWith(link.href);
                         return (

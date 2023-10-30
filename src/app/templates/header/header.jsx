@@ -2,7 +2,7 @@ import NavLinks from '../../components/navheader/NavLinks';
 
 const Header = () => {
     return (
-        <header className="bg-stone-300 h-32 flex justify-end p-4 justify-items-center [&>li]:m-10 ">
+        <header className="flex justify-end  bg-stone-300 h-24 p-4  ">
             <NavLinks />
         </header>
     );
